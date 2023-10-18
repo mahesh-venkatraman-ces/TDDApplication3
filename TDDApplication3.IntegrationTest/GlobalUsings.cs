@@ -1,1 +1,11 @@
+global using AutoFixture;
+global using FluentAssertions;
+global using Microsoft.AspNetCore.Mvc.Testing;
+global using Newtonsoft.Json;
+global using System.Net;
+global using System.Text;
 global using Xunit;
+global using TDDApplication3.DataAccessLayer.Models;
+global using TDDApplication3.DTO.Constants;
+global using Microsoft.Extensions.Configuration;
+global using Microsoft.Extensions.Options;
