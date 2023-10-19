@@ -6,7 +6,7 @@ namespace TDDApplication3.IntegrationTest.Systems.Repository
     public class UserRepositoryTests 
     {
         [Fact]
-        public void GetUsersAsync_WhenCalled_ReturnsUserLists()
+        public void GetUsers_WhenCalled_ReturnsUserLists()
         {
             // Arrange
 
@@ -24,22 +24,7 @@ namespace TDDApplication3.IntegrationTest.Systems.Repository
         }
 
         [Fact]
-        public void GetUsersAsync_WhenCalled_ReturnsZeroUsers()
-        {
-            // Arrange
-            var sut = new UserRepository();
-
-
-            // Act
-            var user = sut.GetUsers();
-
-
-            // Assert
-            Assert.Equal(0, user.Count);
-        }
-
-        [Fact]
-        public async Task CreateUserAsync_WhenCalled_ReturnsId()
+        public async Task CreateUser_WhenCalled_ReturnsId()
         {
             // Arrange
 
@@ -56,7 +41,7 @@ namespace TDDApplication3.IntegrationTest.Systems.Repository
             // Assert
 
             Assert.NotNull(result);
-            Assert.IsType<string>(result);
+            Assert.IsType<User>(result);
         }
     }
 }

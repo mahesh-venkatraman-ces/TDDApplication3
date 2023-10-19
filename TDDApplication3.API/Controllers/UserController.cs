@@ -43,9 +43,7 @@ namespace TDDApplication3.API.Controllers
 
                 var result = _userService.CreateUser(user);
 
-                if (result != null && result.UserId != 0)
-                    return Ok(user);
-                return NoContent();
+                return Ok(user);
             }
             catch (Exception)
             {

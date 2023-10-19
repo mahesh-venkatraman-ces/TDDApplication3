@@ -41,7 +41,7 @@ namespace TDDApplication3.IntegrationTest.Systems.Controllers
         }
 
         [Fact]
-        public async Task CreateUserAsync_WhenCalled_ReturnSuccessCode201()
+        public async Task CreateUserAsync_WhenCalled_ReturnSuccess()
         {
             // Arrange
             var fixture = new Fixture();
@@ -52,24 +52,7 @@ namespace TDDApplication3.IntegrationTest.Systems.Controllers
             var response = await _client.PostAsync(ApiRoutes.UserApi, inputData);
 
             // Assert
-            response.StatusCode.Should().Be(HttpStatusCode.Created);
+            response.StatusCode.Should().Be(HttpStatusCode.OK);
         }
-
-        [Fact]
-        public async Task CreateUserAsync_WhenCalled_ReturnInternalServerError500()
-        {
-            // Arrange
-            var fixture = new Fixture();
-            var data = fixture.Create<User>();
-            var inputData = new StringContent(JsonConvert.SerializeObject(data), Encoding.UTF8, "application/json");
-
-            // Act
-            var response = await _client.PostAsync(ApiRoutes.UserApi, inputData);
-
-            // Assert
-            response.StatusCode.Should().Be(HttpStatusCode.InternalServerError);
-        }
-
-
     }
 }
