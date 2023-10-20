@@ -5,6 +5,16 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDApplication3.IntegrationTest", "TDDApplication3.IntegrationTest\TDDApplication3.IntegrationTest.csproj", "{6E856C7C-605E-43E3-8C56-67A242A74811}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDApplication3.UnitTest", "TDDApplication3.UnitTest\TDDApplication3.UnitTest.csproj", "{81E21B81-DD6A-47CD-A49F-EA0ADAB7332D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDApplication3.API", "TDDApplication3.API\TDDApplication3.API.csproj", "{C2345E03-1838-4799-9F33-3F042EC62CEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDApplication3.DataAccessLayer", "TDDApplication3.DataAccessLayer\TDDApplication3.DataAccessLayer.csproj", "{50BA3381-FF5F-4077-9055-7D61ED775766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDApplication3.Service", "TDDApplication3.Service\TDDApplication3.Service.csproj", "{47789B3A-D182-4028-B0C4-69C5A35C605E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDApplication3.DTO", "TDDApplication3.DTO\TDDApplication3.DTO.csproj", "{07B2F2DB-3B0B-46CA-ABA3-898E989A96D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +25,26 @@ Global
 		{6E856C7C-605E-43E3-8C56-67A242A74811}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E856C7C-605E-43E3-8C56-67A242A74811}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E856C7C-605E-43E3-8C56-67A242A74811}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81E21B81-DD6A-47CD-A49F-EA0ADAB7332D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E21B81-DD6A-47CD-A49F-EA0ADAB7332D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E21B81-DD6A-47CD-A49F-EA0ADAB7332D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E21B81-DD6A-47CD-A49F-EA0ADAB7332D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2345E03-1838-4799-9F33-3F042EC62CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2345E03-1838-4799-9F33-3F042EC62CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2345E03-1838-4799-9F33-3F042EC62CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2345E03-1838-4799-9F33-3F042EC62CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50BA3381-FF5F-4077-9055-7D61ED775766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BA3381-FF5F-4077-9055-7D61ED775766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BA3381-FF5F-4077-9055-7D61ED775766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BA3381-FF5F-4077-9055-7D61ED775766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47789B3A-D182-4028-B0C4-69C5A35C605E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47789B3A-D182-4028-B0C4-69C5A35C605E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47789B3A-D182-4028-B0C4-69C5A35C605E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47789B3A-D182-4028-B0C4-69C5A35C605E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B2F2DB-3B0B-46CA-ABA3-898E989A96D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B2F2DB-3B0B-46CA-ABA3-898E989A96D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B2F2DB-3B0B-46CA-ABA3-898E989A96D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B2F2DB-3B0B-46CA-ABA3-898E989A96D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
